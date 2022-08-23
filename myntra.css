@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo{
+    height: 50px;
+    width: 55px;
+    margin-left: 7px;
+}
+
+header{
+    /* height: 95px; */
+    background: white;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px 0px;
+
+}
+
+nav{
+    display: flex;
+    padding: 13px 11px;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+.logo{
+    display: flex;
+    margin-right: 16px;
+}
+
+nav ul li {
+    margin: 6px 12px;
+    /* padding: 6px 18px; */
+    font-size: 20px;
+    font-weight: 900;
+}
+
+li:hover{
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+    cursor: pointer;
+    /* text-decoration: crimson; */
+}
+
+.search {
+    display: flex;
+    margin-left: 10px;
+    margin: 5px 0px 0px 66px;
+    
+}
+.right{
+    display: flex;
+}
+
+.left{
+    display: flex;
+}
+
+input {
+
+    width: 20vw;
+    border-radius: 4px;
+    height: 30px;
+    padding: 0px 20px;
+    border: 1px solid lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+
+input:hover {
+
+    width: 20vw;
+    border-radius: 4px;
+    height: 30px;
+    padding: 0px 20px;
+    border: 1px solid rgb(180, 180, 119);
+    background-color: lightgoldenrodyellow;
+}
+
+.rightBox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 6px 20px;
+    font-size: 20px;
+}
+
+.mx-2{
+    padding: 3px 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mx-2:hover{
+    padding: 0px 10px;
+    text-decoration: underline;
+    color: crimson;
+    cursor: pointer;
+    font-weight: 700;
+    /* font-family: sans-serif; */
+}
+
+.section1{
+    background: #f2f2f2;
+}
+.container{
+    padding: 2vh 10vw; 
+}
+
+.homeImg{
+    
+    width: 100%;
+    margin-top: 30px;
+}
+
+.left{
+    display: flex;
+}
+
+
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+
+  }
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.itemImg{
+    width: 10vw;
+    margin: 6px 22px;
+}
+
+
+@media screen and (max-width: 1210px) {
+    bodY{
+        background-color: red;
+    }
+    
+}
